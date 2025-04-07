@@ -756,3 +756,32 @@ body{
     color: #55acdf;
   }
   
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  .section-grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav ul {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
